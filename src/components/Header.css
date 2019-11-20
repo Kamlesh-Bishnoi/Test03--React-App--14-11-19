@@ -1,0 +1,41 @@
+.navAlign
+ {
+  justify-content: flex-end;
+  
+ }
+ .navLink{
+    color:white;
+ }
+  .logoIcon{
+   width:120px;
+    height:80px; 
+ } 
+
+.navbar1{
+   background-color:rgb(5, 12, 31);
+
+ 
+}
+a.navLink{
+   padding:10px;
+}
+.Sticky
+{
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+@media(max-width:850px){
+      .Sticky{
+        
+         text-align: center;
+        
+      }
+      .navAlign{
+         padding:40px;
+      }
+      a.navLink{
+         padding:4px;
+      }
+
+}

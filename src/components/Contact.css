@@ -1,0 +1,60 @@
+.contact{
+    text-align:center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(194, 200, 209);
+
+}
+.textcontact
+{
+    font-size: 55px;
+}
+
+.contact-heading{
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+.contact-p{
+  line-height: 0.9
+   
+}
+.conatct1{
+    margin-top:10%
+}
+.form-flex{
+    display: flex;
+    justify-content: center;
+    margin-top:2%;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width:60%; 
+}
+.input-filed{
+    padding:0.6%;
+    margin-top:1%;
+    margin-bottom:1%;
+    background-color:white; 
+}
+.btn-column{
+    margin-top:2%;
+    margin-bottom: 3%; 
+}
+.submit-btn{
+    width:14%;  
+    margin-left:45%;
+    margin-bottom:3%;
+    margin-top:3%;
+   
+}
+@media (max-width:950px){
+    .contact-p{
+        line-height: 1.2;
+    }
+    .submit-btn{
+        width: 22%;
+        font-size: 8px;
+        text-align: center;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,40 @@
+.team{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 200, 209);
+   
+}
+.ourTeam{
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.team-p{
+    line-height: 0.9;
+}
+.teamimage{
+    margin-top:2%;
+}
+.imagetext{
+margin-top:5%;
+}
+.image-p{
+    line-height:0.7;
+}
+.emailImage{
+    width:50px;
+    margin-bottom: 15%;
+  
+}
+.emailImageMargin{
+    margin-bottom: 15%;
+}
+.nameImage{
+        width: 140px;
+        padding: 0px;
+}
+@media (max-width:990px)
+{
+    .emailImage{
+        margin-bottom: 1.5%;
+    }
+}
